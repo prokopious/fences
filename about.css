@@ -1,0 +1,44 @@
+:root {
+    box-sizing: border-box;
+    font-size: calc(1vw + 0.9em);
+    
+    }
+
+    *,
+    *::before,
+    *::after {
+    box-sizing: inherit;
+    }
+    body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(253, 253, 253);
+  
+    }
+    a:link {
+    color: #1476b8;
+    font-weight: bold;
+    text-decoration: none;
+    
+    }
+    a:visited {
+    color: #1430b8;
+    }
+    a:hover {
+    text-decoration: underline;
+    }
+    a:active {
+    color: #b81414;
+    }
+    .page-header {
+
+    background-color: rgb(255, 255, 255);
+    }
+    .title > h1 {
+    color: #333;
+    }
+
+    #container {
+        padding: 1em;
+       
+    }
